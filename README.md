@@ -20,7 +20,8 @@ This tool is a personal utility developed for rapid triage in DFIR engagements. 
 
 ## Future Direction
 I am currently focusing my development efforts on a more robust, high-performance ecosystem:
-* **podarge**: A lightweight Windows artifact collector written in Go.
-* **ingestor**: A cloud-native forensics processing pipeline (currently transitioning from AWS to GCP).
+* **veloxamen/collector**: A lightweight Windows artifact collector written in Go.
+* **veloxamen/decryptor**: For Phase 1, a decryptor to manually process via log2timeline or other forensic tools, written in Go.
+* **veloxamen/ingestor**: For Phase 2, a cloud-native forensics processing pipeline (currently transitioning from AWS to GCP).
 
 This script remains public as a lightweight option for those utilizing traditional log2timeline workflows.
